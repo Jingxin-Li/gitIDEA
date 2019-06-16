@@ -14,6 +14,7 @@ public class TestException {
             System.out.println("试图打开 d:/LOL.exe");
             new FileInputStream(f);
             System.out.println("成功打开");
+            //这是一行测试的注释
         }
         catch(FileNotFoundException e){
             System.out.println("d:/LOL.exe不存在");
